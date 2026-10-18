@@ -1,0 +1,47 @@
+body {
+    background: linear-gradient(135deg, #ffc2d1 0%, #ffb3c6 50%, #ff8fab 100%);
+    font-family: 'Trebuchet MS', sans-serif;
+}
+
+.page-header {
+    background: linear-gradient(90deg, #ff4d6d 0%, #ff0054 100%);
+}
+
+.custom-title {
+    color: #ff0054;
+    text-shadow: 1px 1px 4px rgba(255, 105, 180, 0.4);
+}
+
+.custom-section {
+    background-color: rgba(255, 240, 245, 0.9);
+    backdrop-filter: blur(10px);
+    border: 3px solid #ff758f;
+    border-radius: 25px;
+    box-shadow: 0 15px 35px rgba(255, 77, 109, 0.25);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.custom-section:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 20px 40px rgba(255, 20, 147, 0.35);
+}
+
+.card {
+    transition: transform 0.4s ease, box-shadow 0.4s ease !important;
+    border-radius: 15px;
+}
+
+.card:hover {
+    transform: translateY(-8px) scale(1.02);
+    box-shadow: 0 15px 35px rgba(255, 0, 84, 0.4) !important;
+    border-color: #ff0054 !important;
+}
+
+.btn, .badge {
+    transition: transform 0.3s ease, box-shadow 0.3s ease !important;
+}
+
+.btn:hover, .badge:hover {
+    transform: translateY(-5px) scale(1.05);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
